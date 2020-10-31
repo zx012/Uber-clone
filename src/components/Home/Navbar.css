@@ -34,3 +34,20 @@ ul {
 li {
   padding: 0 20px;
 }
+.navbar__menuIcon {
+  display: none;
+}
+@media screen and (max-width: 950px) {
+  .navbar__items_left {
+    display: none;
+  }
+  .navbar__items_right {
+    display: none;
+  }
+  .navbar__menuIcon {
+    display: flex;
+    flex: 95%;
+    color: white;
+    justify-content: flex-end;
+  }
+}

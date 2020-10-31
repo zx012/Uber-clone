@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/uber-logo.jpg";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import MenuIcon from "@material-ui/icons/Menu";
 
 function Navbar() {
   const MenuItems = [
@@ -54,6 +55,9 @@ function Navbar() {
             <li>{item.title}</li>
           ))}
         </ul>
+      </div>
+      <div className="navbar__menuIcon">
+        <MenuIcon />
       </div>
     </div>
   );
