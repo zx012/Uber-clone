@@ -29,7 +29,6 @@
   margin: 0;
 }
 .left p {
-  font-family: "PT Sans", sans-serif;
   font-size: 1.1em;
   line-height: 24px;
   margin: 40px 0;
@@ -46,7 +45,7 @@
 .right img {
   width: 100%;
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1280px) {
   .first_section {
     flex-direction: column-reverse;
   }

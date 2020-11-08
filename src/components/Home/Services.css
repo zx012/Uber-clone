@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@font-face {
+  font-family: "UberMoveMedium";
+  src: url("../../assets/fonts/UberMoveMedium.otf");
+}
+.services__container {
+  background-color: rgb(228, 199, 106);
+  margin: 0;
+  padding: 70px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services__innerContainer {
+  width: 85%;
+}
+.services__tabList {
+  background-color: white;
+}
+.services__tabList ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
+.services__tabList li {
+  width: 15%;
+  padding: 25px 1% 20px;
+  text-align: center;
+  border-bottom: 4px solid transparent;
+}
+.services__tabList li > span {
+  line-height: 40px;
+}
+.services__tabList li:hover {
+  border-bottom: 4px solid black;
+}
+.services__content {
+  background-color: white;
+  width: 42%;
+  padding: 50px;
+  border-top: 1px solid rgb(228, 228, 228);
+}
+.services__content h1 {
+  font-family: "UberMoveMedium";
+  font-size: 3em;
+  font-weight: 400;
+  margin: 0;
+}
+.services__content p {
+  font-size: 1em;
+  margin: 30px 0;
+}
+.signUpToDriveButton {
+  width: fit-content;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  padding: 15px 35px;
+}
