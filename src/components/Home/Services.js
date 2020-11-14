@@ -162,7 +162,10 @@ function Services() {
   };
 
   return (
-    <div className="services__container">
+    <div
+      className="services__container"
+      id={selectedService.replace(" & ", "")}
+    >
       <div className="services__innerContainer">
         <div className="services__tabList">
           <ul>

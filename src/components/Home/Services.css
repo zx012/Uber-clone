@@ -3,14 +3,46 @@
   font-family: "UberMoveMedium";
   src: url("../../assets/fonts/UberMoveMedium.otf");
 }
+#Earn {
+  background: url("../../assets/earn.jpg");
+  background-size: cover;
+}
+#Ride {
+  background: url("../../assets/ride.jpg");
+  background-size: cover;
+}
+#Eat {
+  background: url("../../assets/eat.jpg");
+  background-size: cover;
+}
+#Business {
+  background: url("../../assets/business.jpg");
+  background-size: cover;
+}
+#Freight {
+  background: url("../../assets/freight.jpg");
+  background-size: cover;
+}
+#Transit {
+  background: url("../../assets/transit.jpg");
+  background-size: cover;
+}
+#BikeScoot {
+  background: url("../../assets/bikes.jpg");
+  background-size: cover;
+}
+#Elevate {
+  background: url("../../assets/elevate.jpg");
+  background-size: cover;
+}
 .services__container {
-  background-color: rgb(228, 199, 106);
   margin: 0;
   padding: 70px 5%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  height: 720px;
 }
+
 .services__innerContainer {
   width: 85%;
 }
