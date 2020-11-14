@@ -67,6 +67,7 @@ function Services() {
           </p>
           <button className="signUpToDriveButton">Sign up to drive</button>
           <br />
+          <br />
           <Router>
             <Link to="/drive">Learn more about driving and delivering</Link>
           </Router>
@@ -91,6 +92,7 @@ function Services() {
           <p>Order delivery from restaurants you love.</p>
           <button className="orderNowButton">Order now</button>
           <br />
+          <br />
           <Router>
             <Link to="/restaurant/signup">
               Own a restaurant? Partner with Uber Eats
@@ -109,6 +111,7 @@ function Services() {
           <button className="getShipperDetailsButton">
             Get shipper details
           </button>
+          <br />
           <br />
           <Router>
             <Link to="/freight/carrier">Sign up to be a carrier</Link>
