@@ -52,7 +52,7 @@
   font-size: 1em;
   margin: 30px 0;
 }
-.signUpToDriveButton {
+.services__content button {
   width: fit-content;
   background-color: black;
   color: white;
@@ -61,4 +61,43 @@
   font-family: "Roboto", sans-serif;
   font-size: 1em;
   padding: 15px 35px;
+}
+.requestNowButton {
+  margin-right: 5%;
+}
+.scheduleForLaterButton {
+  width: fit-content;
+  background-color: rgb(228, 228, 228) !important;
+  color: black !important;
+  border: none;
+  border-radius: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  padding: 15px 35px;
+}
+.services__content input {
+  width: calc(100% - 35px);
+  background-color: rgb(228, 228, 228);
+  border: none;
+  border-radius: 0px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1em;
+  padding: 15px 0 15px 35px;
+  margin: 3px 0;
+}
+.services__content input:nth-child(2) {
+  margin-top: 30px;
+}
+.services__content input:nth-child(4) {
+  margin-bottom: 35px;
+}
+.services__content a {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+.services__content a:hover {
+  color: black;
+  border-bottom: 1px solid black;
 }
