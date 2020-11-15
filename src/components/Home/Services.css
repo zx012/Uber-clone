@@ -37,14 +37,14 @@
 }
 .services__container {
   margin: 0;
-  padding: 70px 5%;
+  padding: 70px 15%;
   display: flex;
   justify-content: center;
   height: 720px;
 }
 
 .services__innerContainer {
-  width: 85%;
+  width: 100%;
 }
 .services__tabList {
   background-color: white;
@@ -132,4 +132,13 @@
 .services__content a:hover {
   color: black;
   border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 1280px) {
+  .services__container {
+    padding: 0;
+  }
+  .services__content {
+    width: 100%;
+  }
 }
